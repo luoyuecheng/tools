@@ -1,7 +1,7 @@
 # tools
 Various tool codes
 
-- [JavaScript 树状工具](./JavaScript\ gadget/tree.js)
+- [JavaScript 树状工具](https://github.com/luoyuecheng/tools/blob/master/JavaScript%20gadget/tree.js)
 
     - 以 / 分割的字符串组成的列表，生成树状数据，其子元素置于当前级 children 字段中。
 
@@ -12,7 +12,7 @@ Various tool codes
     const output = [{ "name": "a", "children": [{ "name": "b", "children": [{ "name": "c" }, { "name": "d" }] }, { "name": "e" }] }, { "name": "b", "children": [{ "name": "c" }] }, { "name": "g", "children": [{ "name": "f", "children": [{ "name": "h" }] }] }]
     ```
 
-- [排列组合](./JavaScript\ gadget/combination.js)
+- [排列组合](https://github.com/luoyuecheng/tools/blob/master/JavaScript%20gadget/combination.js)
 
     从每组中取一个数，组成一组不重复的数据，如果当前项没有值，则取空字符串。
 
