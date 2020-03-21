@@ -45,26 +45,3 @@ function combination(selectValues) {
     }(0, {})
     return result;
 }
-
-+function runCode() {
-    const info = {
-        COM$MTP1: ["MADE IN FRANCE", "MADE IN HONDURAS", "MADE IN U.S.A. OF IMPORTED FABRICS"],
-        COM$MTP2: ["VERY DELICATE MACHINE WASH AT 40°C", "WASH INSIDE OUT", "DRY CLEANABLE"],
-        COM$MTP3: ["Graham Tiso Limited.", "Sports Unlimited Retail BV.", "Tessuti Limited."]
-    }
-
-    let combinationArray = {
-        a: [1, 2, 3],
-        b: [4, 5, 6],
-        c: []
-    }
-
-    combinationArray = [
-        [1, 2, 3],
-        [4, 5, 6],
-        [7]
-    ]
-
-    console.log(combination(combinationArray))
-
-}()
